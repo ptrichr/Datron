@@ -26,9 +26,9 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
   - **Flute Length**
     - This is the cutting length of the tool - where the flute extends until the taper. Avoid cutting operations that exceed this dimension. It should be noted that there are some end mills where the flute seems to extend beyond this specified dimension - however, if you look closely, you’ll notice that the extra “flute length” has no cutting edge, and is much shallower in most cases - this segment is for chip evacuation and is not included in flute length
   - **Shoulder Length**
-    -  Shoulder Length If you’ve seen a Datron endmill, you’ll notice that they have a taper (sometimes small, sometimes large) that transitions from the diameter of the cutting end to the diameter of the shank. Everything from the end of the flute length until this taper is called the “shoulder”. The shoulder length of a tool is the flute length plus the extension until the taper
+    - If you’ve seen a Datron endmill, you’ll notice that they have a taper (sometimes small, sometimes large) that transitions from the diameter of the cutting end to the diameter of the shank. Everything from the end of the flute length until this taper is called the “shoulder”. The shoulder length of a tool is the flute length plus the extension until the taper
   - **Length Below Holder**
-    -  Length Below Holder This is the total stickout of the tool, or the length of the tool below either the adapter it’s in, or the length below the spindle itself
+    - This is the total stickout of the tool, or the length of the tool below either the adapter it’s in, or the length below the spindle itself
   - **Overall Length**
     - Self-explanatory, this is the total length of the tool from end to end.
 - **Diameter**
