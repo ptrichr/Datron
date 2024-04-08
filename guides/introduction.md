@@ -1,7 +1,7 @@
 
 # Introduction to the machine
 
-![The datron in all its glory](assets/datron.jpg)
+![The datron in all its glory](../assets/datron.jpg)
 ---
 The Datron Neo is a prosumer high-speed 3-axis CNC-controlled milling machine, primarily aimed at precision machining plastic and soft metal parts with high dimensional accuracy, for hobbyist and semi-industrial use alike.
 
