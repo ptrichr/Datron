@@ -38,5 +38,3 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
     - `//TODO`
 
 ![tool dimensions](../assets/tooling.png)
----
-Helpful visual guide on dimensions
