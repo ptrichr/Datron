@@ -11,7 +11,7 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
     - As the name suggests, flat endmills have a flat bottom, or 0 corner radius, meaning that they leave a perfect 90 degree angle between the bottom of the cutting path and side of the cutting path
     - Datron Endmills are “single flute” - meaning that they have one chip evacuation flute, which has a singular cutting blade
   - **Ball Endmills**
-    - Ball endmills have a spherical bottom, with corner radius being determined by the diameter of the end mill
+    - Ball endmills have a hemispherical bottom, with corner radius being determined by the diameter of the end mill
     - Ball endmills are typically used to finish parts, `//TODO`
 - **Face Mills**
   - If you're participating in this training, then it's likely you've had some experience with the shell mill on the trak. The shell mill is a kind of face mill
