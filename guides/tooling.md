@@ -33,8 +33,8 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
     - Self-explanatory, this is the total length of the tool from end to end.
 - **Diameter**
   - **Diameter**
-    - `//TODO`
-  - **Shaft Diameter**
-    - `//TODO`
+    - The diameter that this dimension refers to is the diameter of the tool at the cutting edge. Depending on the tool, this can be more, less, or equal to the diameter of the shaft
+  - **Shaft (Shank) Diameter**
+    - The shaft diameter is the diameter of the shank of the tool, or part of the tool after the taper that is being clamped
 
 ![tool dimensions](../assets/tooling.png)
