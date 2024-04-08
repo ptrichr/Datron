@@ -38,3 +38,13 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
     - The shaft diameter is the diameter of the shank of the tool, or part of the tool after the taper that is being clamped
 
 ![tool dimensions](../assets/tooling.png)
+
+## Datron Tool System
+
+- Datron tools are a bit special compared to conventional CNC tooling, since the Datron is a non-conventional machine
+- ** Adapters and Rings **
+  - The Datron's collet system is standardized to work with 8mm shank diameters. However, if you've looked at a few Datron endmills, you'll notice that not all of the shafts are the same diameter. We can remedy this by using adapters (usually located in the drawer labeled "Datron Tools in Containers"), which will convert xmm to 8mm. You will have to use a tool located in the "Tool Change & Brushes" drawer
+  - For tools that are clamped directly by the spindle, and not using an adapter, we have to use stop rings. The reason for this is so that the tool is always level with the face of the collet, to ensure that the tool is level while cutting. There are 2 types of rings, the small diameter rings and the large diameter rings. The large diameter rings have multiple uses, and are locked in using a set screw. The small diameter rings are single-use, and are fit using a small press located in the "Tool Change & Brushes" drawer
+ 
+# Fusion Tool Library
+
