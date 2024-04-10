@@ -90,7 +90,7 @@ The fusion tool library can be expanded by any user who has access to the IFL cl
 
 The only field that you have to fill out here is the "Description" field. The format should be as follows: `[MATERIAL] <TOOL TYPE>`
 
-![example](../assets/toolex)
+![example](../assets/toolex.png)
 > Tool description example format
 
 ## Cutter
@@ -105,7 +105,7 @@ You shouldn't have to fill this area out
 
 ## Holder
 
-Just select the default holder from "Holders (Metric)"
+Select the default holder from "Holders (Metric)"
 
 ## Cutting Data
 
