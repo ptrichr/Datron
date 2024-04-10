@@ -12,12 +12,13 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
     - Datron Endmills are “single flute” - meaning that they have one chip evacuation flute, which has a singular cutting blade
   - **Ball Endmills**
     - Ball endmills have a hemispherical bottom, with corner radius being determined by the diameter of the end mill
-    - Ball endmills are typically used to finish parts, `//TODO`
+    - finishing `//TODO`
 - **Face Mills**
   - If you're participating in this training, then it's likely you've had some experience with the shell mill on the trak. The shell mill is a kind of face mill
   - Face Mills are used to remove a large amount of vertical material from a face of the stock
   - They usually have a much wider diameter than normal end mills, but are not as deep
-  - Good for operations that just work with a single face (in fusion called “face”), not much else
+> [!CAUTION]
+> Do not use face mills for any other operation besides facing
 
 ## Tool Dimensions
 
@@ -38,14 +39,17 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
     - The shaft diameter is the diameter of the shank of the tool, or part of the tool after the taper that is being clamped
 
 ![tool dimensions](../assets/tooling.png)
+> Visual aid
 
 ## Datron Tool System
 
 - Datron tools are a bit special compared to conventional CNC tooling, since the Datron is a non-conventional machine
 - **Adapters**
-  - The Datron's collet system is standardized to work with 8mm shank diameters. However, if you've looked at a few Datron endmills, you'll notice that not all of the shafts are the same diameter. We can remedy this by using adapters (usually located in the drawer labeled "Datron Tools in Containers"), which will convert xmm to 8mm. You will have to use a tool located in the "Tool Change & Brushes" drawer
+  - The Datron's collet system is standardized to work with 8mm shank diameters. However, if you've looked at a few Datron endmills, you'll notice that not all of the shafts are the same diameter. We can remedy this by using adapters, which will convert xmm to 8mm
 - **Rings**
-  - For tools that are clamped directly by the spindle, and not using an adapter, we have to use stop rings. The reason for this is so that the tool is always level with the face of the collet, to ensure that the tool is level while cutting. There are 2 types of rings, the small diameter rings and the large diameter rings. The large diameter rings have multiple uses, and are locked in using a set screw. The small diameter rings are single-use, and are fit using a small press located in the "Tool Change & Brushes" drawer
+  - For tools that are clamped directly by the spindle, and not using an adapter, we have to use stop rings. The reason for this is so that the tool is always level with the face of the collet, to ensure that the tool is level while cutting. There are 2 types of rings, the small diameter rings and the large diameter rings. The large diameter rings have multiple uses, and are locked in using a set screw. The small diameter rings are single-use, and are fit using a small press
+> [!TIP]
+> Adapters, rings, and their tools are located in the Husky toolchest to the left of the Datron
  
 # Fusion Tool Library
 
@@ -55,9 +59,13 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
 
   - This topic will be covered briefly here, it will be talked about a lot more in the video modules. We use presets as a fast way of setting the cutting parameters for different end mills, instead of manually entering the information in line by line.
   - **Partial Cut**
-    - Partial cut refers to operations that remove material with a fraction of the tool's total diameter. These operations are typically more aggressive in nature due to the fact that there is less contact between the tool and the stock, and thus less force is placed on the end mill. Usually, you want to use partial cut presets in operations whose aim is to remove as much material as possible in as little time possible - such as adaptives or pockets
+    - Partial cut refers to operations that remove material with a fraction of the tool's total diameter. These operations are typically more aggressive in nature due to the fact that there is less contact between the tool and the stock, and thus less force is placed on the end mill.
+> [!NOTE]
+> Common operations that use partial cut include, but are not limited to, adaptives, faces, pockets
   - **Full Cut**
-    -  Full cut refers to operations that remove material with the full diameter of the tool. These operations have to be more conservative, otherwise you run the risk of shearing the tool due to the amount of force you are applying perpendicular to the tool itself. Common operations that typically run full cut include, but are not limited to, bores and contours
+    -  Full cut refers to operations that remove material with the full diameter of the tool. These operations have to be more conservative, otherwise you run the risk of shearing the tool due to the amount of force you are applying perpendicular to the tool itself
+> [!NOTE]
+> Common operations that use full cut include, but are not limited to, contours, bores
 
 ## Adding Tools to the Library
 
