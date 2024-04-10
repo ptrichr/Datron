@@ -8,6 +8,8 @@ Hi! If you're here that means you're training to become a Datron operator - that
 
 This training is formatted into modules, making the ingestion of content easier. Your first task will be to read these guides:
 
+[Prelude. Introduction to CAM](/guides/cambrief.md)
+
 [I. Introduction to the Machine](/guides/introduction.md)
 
 [II. Tooling](/guides/tooling.md)
@@ -15,7 +17,7 @@ This training is formatted into modules, making the ingestion of content easier.
 After you've read the guides above, clone these blank designs into your user training folder in fusion from: Datron-Projects/!Training/Example-Orders:
 
 - [ ] 2068
-- [ ] 1405
+- [ ] 1405 or Titan 9M `//TBD`
 - [ ] `//TBD`
 - [ ] 2481
 
