@@ -49,3 +49,24 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
  
 # Fusion Tool Library
 
+- All CAM for the Datron will use tool definitions from the IFL team's cloud library. The library contains all the tools in the Datron, as well as all tools that we currently have on hand. It stores dimensions, presets for feeds and speeds, as well as presets for stepovers and stepdown cutting information. For most orders, you will be using tools from the library labeled "DATRON" (not "DATRON ALL CUTTING TOOLS" or anything like that, just "DATRON")
+
+## Presets
+
+  - This topic will be covered briefly here, it will be talked about a lot more in the video modules. We use presets as a fast way of setting the cutting parameters for different end mills, instead of manually entering the information in line by line.
+  - **Partial Cut**
+    - Partial cut refers to operations that remove material with a fraction of the tool's total diameter. These operations are typically more aggressive in nature due to the fact that there is less contact between the tool and the stock, and thus less force is placed on the end mill. Usually, you want to use partial cut presets in operations whose aim is to remove as much material as possible in as little time possible - such as adaptives or pockets
+  - **Full Cut**
+    -  Full cut refers to operations that remove material with the full diameter of the tool. These operations have to be more conservative, otherwise you run the risk of shearing the tool due to the amount of force you are applying perpendicular to the tool itself. Common operations that typically run full cut include, but are not limited to, bores and contours
+
+## Adding Tools to the Library
+
+- `consult wensen`
+
+# Datron Tool Management UI
+
+`//TODO`
+
+# Adding and Removing Tools (Machine)
+
+`//TODO`
