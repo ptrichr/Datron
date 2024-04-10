@@ -84,6 +84,31 @@ Full cut refers to operations that remove material with the full diameter of the
 
 ## Adding Tools to the Library
 
+The fusion tool library can be expanded by any user who has access to the IFL cloud library. To add a tool, click on the plus icon in the top left, and choose the type of tool you are trying to add to the system.
+
+## General
+
+The only field that you have to fill out here is the "Description" field. The format should be as follows: `[MATERIAL] <TOOL TYPE>`
+
+![example](../assets/toolex)
+> Tool description example format
+
+## Cutter
+
+Here you should be filling out the dimenions of the tool. All the dimensions were just defined above, so feel free to consult them.
+> [!NOTE]
+> Make sure that your units are mm and that clockwise spindle rotation is checked. Datron endmills are Carbide as well, so select that for the material.
+
+## Shaft
+
+You shouldn't have to fill this area out
+
+## Holder
+
+Just select the default holder from "Holders (Metric)"
+
+## Cutting Data
+
 `//TODO`
 
 # Datron Tool Management UI
