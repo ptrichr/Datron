@@ -3,7 +3,7 @@
 
 Machining in the IFL, you will become familiar with a large number of tools. In this guide, you will be learning about some of the more common tools that a CNC operator uses, and how we document and use tools in the IFL.
 > [!NOTE]
-> We colloquially refer to CNC endmills and other cutting bits as "tools", not to be confused with other tools such as power tools
+> We often colloquially refer to CNC endmills and other cutting bits as "tools", not to be confused with other tools such as power tools.
 
 ## Types of Tools
 
@@ -21,7 +21,7 @@ Endmills are used to remove material either laterally, vertically, or both. They
 
 If you're participating in this training, then it's likely you've had some experience with the shell mill on the ProtoTrak. The shell mill is a kind of face mill. Face Mills are used to remove a large amount of vertical material from a face of the stock. They usually have a much wider diameter than normal end mills, but are not as deep.
 > [!CAUTION]
-> Do not use face mills for any other operation besides facing
+> Do not use face mills for any other operation besides facing.
 
 ## Tool Dimensions
 
@@ -60,8 +60,8 @@ Datron tools are a bit special compared to conventional CNC tooling, since the D
 
 - For tools that are clamped directly by the spindle, and not using an adapter, we have to use stop rings. The reason for this is so that the tool is always level with the face of the collet, to ensure that the tool is level while cutting. There are 2 types of rings, the small diameter rings and the large diameter rings. The large diameter rings have multiple uses, and are locked in using a set screw. The small diameter rings are single-use, and are fit using a small press
 > [!TIP]
-> Adapters, rings, and their tools are located in the Husky toolchest to the left of the Datron
- 
+> Adapters, rings, and their tools are located in the Husky toolchest to the left of the Datron.
+
 # Fusion Tool Library
 
 All CAM for the Datron will use tool definitions from the IFL team's cloud library. The library contains all the tools in the Datron, as well as all tools that we currently have on hand. It stores dimensions, presets for feeds and speeds, as well as presets for stepovers and stepdown cutting information. For most orders, you will be using tools from the library labeled "DATRON" (not "DATRON ALL CUTTING TOOLS" or anything like that, just "DATRON")
@@ -74,13 +74,13 @@ This topic will be covered briefly here, as it will be talked about a lot more i
 
 Partial cut refers to operations that remove material with a fraction of the tool's total diameter. These operations are typically more aggressive in nature due to the fact that there is less contact between the tool and the stock, and thus less force is placed on the end mill.
 > [!NOTE]
-> Common operations that use partial cut include, but are not limited to, adaptives (2D & 3D), faces, pockets
+> Common operations that use partial cut include, but are not limited to, adaptives (2D & 3D), faces, pockets.
 
 ### Full Cut
 
 Full cut refers to operations that remove material with the full diameter of the tool. These operations have to be more conservative, otherwise you run the risk of shearing the tool due to the amount of force you are applying perpendicular to the tool itself
 > [!NOTE]
-> Common operations that use full cut include, but are not limited to, contours, bores
+> Common operations that use full cut include, but are not limited to, contours, bores.
 
 ## Adding Tools to the Library
 
