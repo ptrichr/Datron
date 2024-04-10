@@ -11,3 +11,9 @@ This training is formatted into modules, making the ingestion of content easier.
 [I. Introduction to the Machine](/guides/introduction.md)
 
 [II. Tooling](/guides/tooling.md)
+
+After you've read the guides above, clone these papercut orders into your user training folder:
+- [ ] 2068
+- [ ] `//TBD`
+- [ ] `//TBD`
+- [ ] 2481
