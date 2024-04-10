@@ -13,8 +13,10 @@ This training is formatted into modules, making the ingestion of content easier.
 [II. Tooling](/guides/tooling.md)
 
 After you've read the guides above, clone these blank designs into your user training folder in fusion from: Datron-Projects/!Training/Example-Orders:
+
 - [ ] 2068
 - [ ] 1405
 - [ ] `//TBD`
 - [ ] 2481
+
 After you've cloned them, try to do the CAM yourself before referring to the corresponding ELMS-Canvas module for each part. Have a MS or any other Datron operator look over your CAM as well as we might be able to give helpful advice or tips.
