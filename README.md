@@ -12,8 +12,10 @@ This training is formatted into modules, making the ingestion of content easier.
 
 [II. Tooling](/guides/tooling.md)
 
-After you've read the guides above, clone these papercut orders into your user training folder:
+After you've read the guides above, clone these papercut orders into your user training folder in fusion:
 - [ ] 2068
 - [ ] `//TBD`
 - [ ] `//TBD`
 - [ ] 2481
+
+After you've cloned them, try to CAM the order yourself before referring to the corresponding ELMS-Canvas module for each part.
