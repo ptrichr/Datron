@@ -25,7 +25,7 @@ If you're participating in this training, then it's likely you've had some exper
 
 ## Tool Dimensions
 
-In fusion, when selecting a tool, you might notice words like flute length, or shoulder length that seem unfamiliar - these are critical dimensions that sometimes dictate the difference between a finished part and a crash. If you’ve already looked at a Datron endmill, you’ll notice that there are 2 very distinct parts - the flute, and simply put, everything above the flute (shank)
+In fusion, when selecting a tool, you might notice words like flute length, or shoulder length that seem unfamiliar - these are critical dimensions that sometimes dictate the difference between a finished part and a crash. If you’ve already looked at a Datron endmill, you’ll notice that there are 2 distinct parts separated by a taper - the flute (the part that looks like a drill), and simply put, everything above the flute (shank)
 
 ### Lengths
 
