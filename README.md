@@ -12,9 +12,9 @@ This training is formatted into modules, making the ingestion of content easier.
 
 [II. Tooling](/guides/tooling.md)
 
-After you've read the guides above, clone these papercut orders into your user training folder in fusion:
+After you've read the guides above, clone these papercut orders into your user training folder in fusion from: Datron-Projects/!Training/Example-Orders:
 - [ ] 2068
-- [ ] `//TBD`
+- [ ] 1405
 - [ ] `//TBD`
 - [ ] 2481
 
