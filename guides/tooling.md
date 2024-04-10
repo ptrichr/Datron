@@ -9,7 +9,7 @@ Machining in the IFL, you will become familiar with a large number of tools. In 
 
 ### Endmills
 
-Endmills are used to remove material either laterally, vertically, or both. They make very thin slices (chips) of material with a “flute” that has a very sharp blade its edge. For the purposes of the Datron, we will talk about 2 endmills, because those are the only 2 types we use.
+Endmills are used to remove material either laterally, vertically, or both. They make very thin slices (chips) of material with a “flute” that has a very sharp blade along its edge. For the purposes of the Datron, we will talk about 2 endmills, because those are the only 2 types we use.
 - **Flat Endmills**
   - As the name suggests, flat endmills have a flat bottom, or 0 corner radius, meaning that they leave a perfect 90 degree angle between the bottom of the cutting path and side of the cutting path
   - Datron Endmills are “single flute” - meaning that they have one chip evacuation flute, which has a singular cutting blade
