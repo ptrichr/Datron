@@ -18,4 +18,4 @@ After you've read the guides above, clone these blank designs into your user tra
 - [ ] `//TBD`
 - [ ] 2481
 
-After you've cloned them, try to CAM the order yourself before referring to the corresponding ELMS-Canvas module for each part.
+After you've cloned them, try to CAM the order yourself before referring to the corresponding ELMS-Canvas module for each part. Have a MS or any other Datron operator look over your CAM as well as we might be able to give helpful advice or tips.
