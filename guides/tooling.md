@@ -64,7 +64,7 @@ Datron tools are a bit special compared to conventional CNC tooling, since the D
 
 # Fusion Tool Library
 
-All CAM for the Datron will use tool definitions from the IFL team's cloud library. The library contains all the tools in the Datron, as well as all tools that we currently have on hand. It stores dimensions, presets for feeds and speeds, as well as presets for stepovers and stepdown cutting information. For most orders, you will be using tools from the library labeled "DATRON" (not "DATRON ALL CUTTING TOOLS" or anything like that, just "DATRON")
+All CAM for the Datron will use tool definitions from the IFL team's cloud library. The library contains all the tools in the Datron, as well as all tools that we currently have on hand. It stores dimensions, presets for feeds and speeds, as well as presets for stepovers and stepdown cutting information. For most orders, you will be using tools from the library labeled "DATRON" (not "DATRON ALL CUTTING TOOLS" or anything like that, just "DATRON").
 
 ## Presets
 
@@ -78,7 +78,7 @@ Partial cut refers to operations that remove material with a fraction of the too
 
 ### Full Cut
 
-Full cut refers to operations that remove material with the full diameter of the tool. These operations have to be more conservative, otherwise you run the risk of shearing the tool due to the amount of force you are applying perpendicular to the tool itself
+Full cut refers to operations that remove material with the full diameter of the tool. These operations have to be more conservative, otherwise you run the risk of shearing the tool due to the amount of force you are applying perpendicular to the tool itself.
 > [!NOTE]
 > Common operations that use full cut include, but are not limited to, contours, bores.
 
@@ -88,7 +88,7 @@ The fusion tool library can be expanded by any user who has access to the IFL cl
 
 ## General
 
-The only field that you have to fill out here is the "Description" field. The format should be as follows: `[MATERIAL] <TOOL TYPE>`
+The only field that you have to fill out here is the "Description" field. The format should be as follows: `[MATERIAL] <TOOL TYPE>`.
 
 ![example](../assets/toolex.png)
 > Tool description example format
@@ -97,24 +97,42 @@ The only field that you have to fill out here is the "Description" field. The fo
 
 Here you should be filling out the dimenions of the tool. All the dimensions were just defined above, so feel free to consult them.
 > [!NOTE]
-> Make sure that your units are mm and that clockwise spindle rotation is checked. Datron endmills are Carbide as well, so select that for the material.
+> Make sure that your units are mm and that clockwise spindle rotation is checked. Datron endmills are Carbide as well, so make sure to select that for the material.
 
 ## Shaft
 
-You shouldn't have to fill this area out
+You shouldn't have to fill this area out.
 
 ## Holder
 
-Select the default holder from "Holders (Metric)"
+Select the default holder from "Holders (Metric)".
 
 ## Cutting Data
 
-`//TODO`
+Create 2 presets using the plus icon in the top left, name them partial cut and full cut (if you haven't learned about these, you will soon).
+
+The majority of the information in this section can be filled out from the [tool speed calculator][1] in the shared google drive. The fields with the `fx` on the right don't need to be filled out - that `fx` stands for function - those parameters are determined by what's input in the other fields. Some of the parameter names aren't one-to-one with the names in the calculator, so I'll clarify below:
+
+`<Fusion> -- <Calculator>`
+- Spindle Speed -- RPM
+- Cutting Feedrate -- Feedrate XY
+- Stepover -- Depth of Cut
+- Stepdown -- Width of Cut
+- Plunge Feedrate -- Feedrate Z
+
+A few more notes:
+- Ramp feedrate can be set to be half the cutting feedrate
+- In each preset make sure to select the boxes for stepdowns and stepovers - fill those values in from the calculator as well
+- Coolant should be set to mist by default
 
 # Datron Tool Management UI
 
-`//TODO`
+To locate the UI, tap the `NEXT` button at the top right of the Datron's control panel, then tap the box that says "Tool Management".
 
 # Adding and Removing Tools (Machine)
 
 `//TODO`
+
+
+
+[1]: <https://drive.google.com/drive/folders/1qK4v8owg6VsG17WGy4iM4AYyfFKU4zLS>
