@@ -66,6 +66,9 @@ Datron tools are a bit special compared to conventional CNC tooling, since the D
 
 All CAM for the Datron will use tool definitions from the IFL team's cloud library. The library contains all the tools in the Datron, as well as all tools that we currently have on hand. It stores dimensions, presets for feeds and speeds, as well as presets for stepovers and stepdown cutting information. For most orders, you will be using tools from the library labeled "DATRON" (not "DATRON ALL CUTTING TOOLS" or anything like that, just "DATRON").
 
+> [!IMPORTANT]
+> To get to the IFL's fusion tool library, make sure you have `Preferences > Manufacture > Enable Cloud Libraries` enabled
+
 ## Presets
 
 This topic will be covered briefly here, as it will be talked about a lot more in the video modules. We use presets as a quick way of setting the cutting parameters for different end mills instead of manually entering the information in line by line when programming operations.
@@ -128,6 +131,25 @@ A few more notes:
 # Datron Tool Management UI
 
 To locate the UI, tap the `NEXT` button at the top right of the Datron's control panel, then tap the box that says "Tool Management".
+
+![visual](../assets/ui.png)
+> Visual guide
+
+## Tool Info
+
+Each tool "display" has information about the tool, such as tool diameter, flute length, and overall length. Each tool will have 4-5 buttons underneath that correspond to actions that can be made on the tool. The actions depend on where the tools are located, for example, a tool in the spindle has different actions than a tool not in the machine at all.
+
+## Spindle
+
+This section of the UI just shows information about the current tool in the spindle. 
+
+## Tool Magazine
+
+## Warehouse
+
+## User Tool Catalogue
+
+## DATRON Tool Catalogue
 
 # Adding and Removing Tools (Machine)
 
