@@ -17,7 +17,7 @@ This training is formatted into modules, making the ingestion of content easier.
 After you've read the guides above, clone these blank designs into your user training folder in fusion from: Datron-Projects/!Training/Example-Orders:
 
 - [ ] 2068
-- [ ] 1405 or Titan 9M `//TBD`
+- [ ] Titan 9M
 - [ ] `//TBD`
 - [ ] 2481
 
