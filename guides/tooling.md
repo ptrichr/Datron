@@ -142,14 +142,23 @@ Each tool "display" has information about the tool, such as tool diameter, flute
 ## Spindle
 
 This section of the UI just shows information about the current tool in the spindle. 
+`//TODO`
 
 ## Tool Magazine
 
+`//TODO`
+
 ## Warehouse
+
+`//TODO`
 
 ## User Tool Catalogue
 
+`//TODO`
+
 ## DATRON Tool Catalogue
+
+`//TODO`
 
 # Adding and Removing Tools (Machine)
 
