@@ -56,4 +56,4 @@ A flat is a finishing operation that works on flat geometries. It will detect th
 
 ### Scallop
 
-`//TODO`
+A scallop is a finishing operation that can be used on any type of geometry. It generates a toolpath similar to pocket toolpaths, it does passes that are similarly shaped but increasing in size at outward consistent stepovers. When used correctly, this toolpath can create some cool finishes
