@@ -29,6 +29,8 @@ As the step says, this should be done every Friday at minimum.
 ## Coolant
 Checking the coolant should be done every Friday, with coolant top-off as needed.
 - [ ] At the back of the Datron, on the bottom, there is a swiveling panel that has a canister attatched to it, this is where the coolant is stored. Make sure there is at least a quarter tank left
-[Coolant Canister](../assets/coolant.png)
+- [ ] 
+[!Coolant Canister](../assets/coolant.png)
 > Picture of the Canister
+
 - [ ]
